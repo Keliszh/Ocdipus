@@ -8,7 +8,7 @@ class Load extends Phaser.Scene {
         this.load.image('ground', './assets/ground.png');//for test
         this.load.image('enemy', './assets/enemy.png');
 
-        this.load.image('tiles', './assets/Tileset.png');
+        this.load.image('tiles', './assets/tile.png');
         this.load.tilemapTiledJSON('map','./assets/mapsheet.json'); //load tile map
     }
 
